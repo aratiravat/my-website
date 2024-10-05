@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Portfoliyo </title>
+        <link rel="stylesheet"  href="style 2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">      
+</head>
+<body>
+<section class="header">
+        <nav>
+              
+               <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="HideMenu()"></i>
+                      <ul>
+                          <li><a href="index 2.html">Home</a></li>
+                          <li><a href="About.html">About Me</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+
+                      </ul>
+                  </div>
+                  <i class="fa fa-bars" onclick="ShowMenu()"> </i>
+              </nav>
+            <div class="text-box">
+                <h1>Hey! I'm Ravat Arati.</h1>
+                <p>Welcome to my website.</p>
+                
+            </div>
+   </section>
+
+   <!--About Me-->
+   <section class="About">
+       <h1>My Education</h1>
+       <p> </p>
+       <div class="row">
+           <div class="About-col">
+               <h3>About standard 10</h3>
+               <p>I completed my std 10 at ST.Xavier's high school,Mahemdabad.</p>
+           </div>
+           <div class="About-col">
+            <h3>About standard 12</h3>
+            <p>I completed my std 12 at Vision School Of Science,Nadiad. </p>
+        </div> <div class="About-col">
+            <h3>Current Education</h3>
+            <p>I am studing B.tech from Dharmsinh Desai University,Nadiad.</p>
+        </div>
+       </div>
+   </section>
+
+   <!--Hobbies-->
+    <section class="hobbies">
+        <h1>Hobbies</h1>
+        <p>The following are my hobbies</p>
+        <div class="row">
+            <div class="hobbies-col">
+                <img src="Images/music.jpg">
+                <div class="layer">
+                    <h3>Music</h3>
+                </div>
+            </div>
+            <div class="hobbies-col">
+                <img src="Images/cricket.jpg">
+                <div class="layer">
+                    <h3>Cricket</h3>
+                </div>
+            </div>
+            <div class="hobbies-col">
+                <img src="Images/drawing.jpg">
+                <div class="layer">
+                    <h3>Drawing</h3>
+                </div>
+            </div>
+         </section>
+         
+            
+       
+        
+<!---Footer-->
+<section class="Footer">
+    <h1>Thank You!</h1>
+    <p>Visit Again.</p>
+    <div class="icon">
+        <i class="fa fa-smile-o"></i>
+        
+    </div>
+    
+</section>
+       
+       
+            </section>
+<!--javascript toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+    </body>
+</html>
